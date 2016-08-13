@@ -1,0 +1,121 @@
+# See https://github.com/github/gitignore/tree/master/Global
+
+# Archives
+*.7z
+*.jar
+*.rar
+*.zip
+*.gz
+*.bzip
+*.bz2
+*.xz
+*.lzma
+*.cab
+
+# packing-only formats
+*.iso
+*.tar
+
+# package management formats
+*.dmg
+*.xpi
+*.gem
+*.egg
+*.deb
+*.rpm
+*.msi
+*.msm
+*.msp
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+.AppleDouble
+.LSOverride
+Desktop.ini
+.cache
+
+# Xcode/Objective-C
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.xccheckout
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.ipa
+*.xcuserstate
+
+# Icon must ends with two \r.
+Icon
+
+
+# Thumbnails
+._*
+Thumbs.db
+ehthumbs.db
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Sublime Text
+*.sublime-workspace
+
+# project files should be checked into the repository, unless a significant
+# proportion of contributors will probably not be using SublimeText
+# *.sublime-project
+
+# Vagrant
+.vagrant/
+
+# Vim
+[._]*.s[a-w][a-z]
+[._]s[a-w][a-z]
+*.un~
+Session.vim
+.netrwhist
+*~
+
+# Compiled Source
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# Logs and Databases
+*.log
+*.sql
+*.sqlite
+*.sqlite3
+
+# Python
+*.pyc
+*.pyo
+
+# Security
+id_rsa
+
+# Other dev-related files
+*.bak
+*.orig
+*.sass-cache
+.directory
+.svn/*
+*.swp
+svn-commit.*
+tags
+TAGS

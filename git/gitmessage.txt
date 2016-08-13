@@ -1,0 +1,9 @@
+subject line
+
+what happened - if necessary at all 
+(50 char max, wrap@72)
+bullets ok (*space, line separated)
+All Commits in present tense (create function not created function..)
+Replace or delete this text block and subject line
+Leave blank line at line 2.
+Leave Commit message below, just save and close.
