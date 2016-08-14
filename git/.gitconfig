@@ -22,7 +22,13 @@
   changed = green
   untracked = cyan
 [diff]
+  # Detect copies as well as renames
   renames = copies
+[alias]
+  st = status
+  ci = commit
+  pom = push origin master
+  hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
 [help]
   autocorrect = 1
 
