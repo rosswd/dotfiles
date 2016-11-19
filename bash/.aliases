@@ -7,10 +7,20 @@ alias ....="cd ../../.."
 alias dl="cd $HOME/Downloads"
 alias dt="cd $HOME/Desktop"
 alias si="cd $HOME/Sites"
-alias g="git"
+alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
 
+# Git
+alias g="git"
+alias gd="git diff"
+alias gp="git push"
+alias gpom="git push origin master"
+alias gs="git status"
+
+# Lists
 # List only directories
 alias lsd="ls -lf ${colorflag} | grep --color=never '^d'"
+
+alias l="ls -lh"
 
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
@@ -18,10 +28,12 @@ alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date
 # IP addresses
 alias ip="dig +short myip.opendns.com @resolver1.opendns.com"
 alias localip="ipconfig getifaddr en0"
+alias usblocalip="ipconfig getifaddr en3"
 
 # Show/hide hidden files in Finder
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
-# Python Web Server
+# Web Servers
 alias pss="python -m SimpleHTTPServer"
+alias phps="php -S localhost:8000"
