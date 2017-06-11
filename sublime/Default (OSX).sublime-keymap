@@ -1,0 +1,4 @@
+[
+  { "keys": ["super+."], "command": "toggle_side_bar" },
+  { "keys": ["ctrl+shift+o"], "command": "toggle_show_open_files" }
+]
