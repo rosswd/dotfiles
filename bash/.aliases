@@ -1,20 +1,34 @@
 # Navigation
 alias ..="cd .."
 alias ...="cd ../.."
-alias ....="cd ../../.."
 
 # Shortcuts
 alias dl="cd $HOME/Downloads"
 alias dt="cd $HOME/Desktop"
 alias si="cd $HOME/Sites"
+
+# VLC from bash, remember to pass in an interface option like -i [rc ncurses http]
+# `vlc -l | grep -i interface` lists available interfaces
 alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
 
 # Git
 alias g="git"
-alias gd="git diff"
-alias gp="git push"
-alias gpom="git push origin master"
-alias gs="git status"
+
+# Web Servers
+alias pss="python -m SimpleHTTPServer"
+alias phps="php -S localhost:8000"
+alias phps1="php -S localhost:8001"
+alias phpwp="php -S localhost:8550"
+alias nrd="npm run dev" # nodemon
+
+## cat
+alias cat="ccat $*"
+alias cat0="/bin/cat $*"
+
+## c++
+# g++ with c++11 option
+# cpp file.cpp -o file.o
+alias cpp="g++ -std=c++11"
 
 # Lists
 # List only directories
@@ -34,6 +48,10 @@ alias usblocalip="ipconfig getifaddr en3"
 alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
 alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
 
-# Web Servers
-alias pss="python -m SimpleHTTPServer"
-alias phps="php -S localhost:8000"
+# Hide/show all desktop icons (useful when presenting)
+alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
+alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && killall Finder"
+
+# Empty the Trash on all mounted volumes and the main HDD
+# Also, clear Apple’s System Logs to improve shell startup speed
+alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; sudo rm -rfv ~/.Trash; sudo rm -rfv /private/var/log/asl/*.asl"
