@@ -1,0 +1,5 @@
+{
+  "cmd": ["node", "$file"],
+  // sublime not picking up /usr/local/bin, so added here
+  "path": "/usr/local/bin"
+}
