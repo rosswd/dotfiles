@@ -1,0 +1,7 @@
+# command: ssh acme-4003
+#
+#Host acme-4003
+#User redrunner
+#Hostname 123.123.123.123
+#IdentityFile $HOME/.ssh/id_rsa
+#Port 123
