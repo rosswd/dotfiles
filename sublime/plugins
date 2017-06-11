@@ -1,0 +1,8 @@
+# Install package control first: https://packagecontrol.io/
+
+# Plugins
+https://packagecontrol.io/packages/BracketHighlighter
+https://packagecontrol.io/packages/Git
+https://packagecontrol.io/packages/Material%20Theme
+https://packagecontrol.io/packages/SideBarEnhancements
+https://packagecontrol.io/packages/SublimeLinter
