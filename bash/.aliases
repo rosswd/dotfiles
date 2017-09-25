@@ -7,34 +7,33 @@ alias dl="cd $HOME/Downloads"
 alias dt="cd $HOME/Desktop"
 alias si="cd $HOME/Sites"
 
-# VLC from bash, remember to pass in an interface option like -i [rc ncurses http]
-# `vlc -l | grep -i interface` lists available interfaces
-alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
+# Be Safe
+alias rm="rm -i"
+alias mv="mv -i"
+alias cp="cp -i"
+
+# Directory Listings
+alias ls="ls -F"
+alias lsa="ls -a"
+alias lsl="ls -la"
 
 # Git
 alias g="git"
 
-# Web Servers
-alias pss="python -m SimpleHTTPServer"
-alias phps="php -S localhost:8000"
-alias phps1="php -S localhost:8001"
-alias phpwp="php -S localhost:8550"
-alias nrd="npm run dev" # nodemon
+# Media
+alias vlc="/Applications/VLC.app/Contents/MacOS/VLC"
 
-## cat
+# cat
 alias cat="ccat $*"
 alias cat0="/bin/cat $*"
 
-## c++
-# g++ with c++11 option
-# cpp file.cpp -o file.o
-alias cpp="g++ -std=c++11"
+# webdev
+alias pss="python -m SimpleHTTPServer"
+alias phps0="php -S localhost:8000"
+alias phps1="php -S localhost:8001"
 
-# Lists
-# List only directories
-alias lsd="ls -lf ${colorflag} | grep --color=never '^d'"
-
-alias l="ls -lh"
+# progs
+alias psy="psysh"
 
 # Stopwatch
 alias timer='echo "Timer started. Stop with Ctrl-D." && date && time cat && date'
