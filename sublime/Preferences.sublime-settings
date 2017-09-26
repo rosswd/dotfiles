@@ -1,31 +1,46 @@
 {
-  "bold_folder_labels": true,
-  "caret_extra_width": 1,
-  "caret_style": "solid",
-  "color_scheme": "Packages/Material Theme/schemes/Material-Theme.tmTheme",
-  "draw_white_space": "all",
-  "enable_tab_scrolling": false,
-  "fade_fold_buttons": false,
-  "font_face": "Oxygen Mono",
-  "font_size": 16,
-  "highlight_line": true,
-  "highlight_modified_tabs": true,
-  "indent_guide_options":
-  [
-    "draw_normal",
-    "draw_active"
-  ],
-  "line_padding_bottom": 3,
-  "line_padding_top": 3,
-  "margin": 2,
-  "overlay_scroll_bars": true,
-  "rulers":
-  [
-    80
-  ],
-  "scroll_speed": 0.3,
-  "tab_size": 2,
-  "theme": "Material-Theme.sublime-theme",
-  "translate_tabs_to_spaces": true,
-  "trim_trailing_white_space_on_save": true
+	"always_show_minimap_viewport": true,
+	"bold_folder_labels": true,
+	"caret_extra_width": 1,
+	"caret_style": "solid",
+	"color_scheme": "Packages/Facebook Material Theme/schemes/Material-Theme-Darker.tmTheme",
+	"draw_white_space": "all",
+	"enable_tab_scrolling": false,
+	"fade_fold_buttons": false,
+	"font_face": "Hack",
+	"font_size": 18,
+	"highlight_line": true,
+	"highlight_modified_tabs": true,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_guide_options":
+	[
+		"draw_normal",
+		"draw_active"
+	],
+	"line_padding_bottom": 3,
+	"line_padding_top": 3,
+	"margin": 2,
+	"match_brackets": false,
+	"match_brackets_angle": false,
+	"match_brackets_braces": false,
+	"match_brackets_contents": false,
+	"match_brackets_square": false,
+	"match_tags": false,
+	"overlay_scroll_bars": "enabled",
+	"rulers":
+	[
+		80
+	],
+	"scroll_speed": 0.9,
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_large": true,
+	"spacegray_tabs_font_medium": true,
+	"spacegray_tabs_xlarge": true,
+	"tab_size": 2,
+	"theme": "Spacegray Eighties.sublime-theme",
+	"translate_tabs_to_spaces": true,
+	"trim_trailing_white_space_on_save": true
 }
